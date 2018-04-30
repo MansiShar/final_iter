@@ -5,24 +5,24 @@
   <% if current_user.admin? %>
     <a href="<%= followers_user_path(@user) %>">
     <strong id="followers" class="stat">
-      <%= @user.followers.count %>
+      <p style="font-size:15px; color:white"><%= @user.followers.count %></p>
     </strong>
-    Registered Users
+    <p style="font-size:15px; color:white">Registered Users</p>
     </a>
   <% else %>
     <% if !current_user?(@user) %>
       <a href="<%= followers_user_path(@user) %>">
       <strong id="followers" class="stat">
-        <%= @user.followers.count %>
+        <p style="font-size:15px; color:white"><%= @user.followers.count %></p>
       </strong>
-      Registered Users
+      <p style="font-size:15px; color:white">Registered Users</p>
       </a>
     <% else %>
       <a href="<%= following_user_path(@user) %>">
       <strong id="following" class="stat">
-        <%= @user.following.count %>
+        <p style="font-size:15px; color:white"><%= @user.following.count %></p>
       </strong>
-      My Classes
+      <p style="font-size:15px; color:white">My Classes</p>
       </a>
     <% end %>
   <% end %>
