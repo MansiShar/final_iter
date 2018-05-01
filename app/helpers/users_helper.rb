@@ -5,7 +5,7 @@ module UsersHelper
     gravatar_id = Digest::MD5::hexdigest(user.phone.downcase)
     size = options[:size]
     gravatar_url = "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
-    if user == "1" or user.name == "class healing garden" #healing garden image
+    if user == "1" or user.name == "Class Healing Garden" #healing garden image
       image_tag("http://beta.finegardening.com/app/uploads/sites/finegardening.com/files/images/image-collection/jan4_1.jpg",:size => "150x150", alt: user.name, class: "gravatar")
     elsif user == "2" or user.name == "Class Yoga"
       image_tag("http://cdn2.stylecraze.com/wp-content/uploads/2014/09/2548-5-Effective-Yoga-Poses-To-Increase-Your-Stamina-SS.jpg",:size => "150x150", alt: user.name, class: "gravatar")
