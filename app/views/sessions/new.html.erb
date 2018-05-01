@@ -37,6 +37,13 @@ new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'e
       <%= f.label :password %>
       <div class="popup" onclick="myFunction1()">Forgot Password!!
         <span class="popuptext" id="myPopup1"> Please contact help desk!</span>
+        <script>
+// When the user clicks on <div>, open the popup
+function myFunction1() {
+    var popup = document.getElementById("myPopup1");
+    popup.classList.toggle("show");
+}
+</script>
       </div>
       <%= f.password_field :password, class: 'form-control' %>
    

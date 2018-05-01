@@ -11,11 +11,11 @@
     </a>
   <% else %>
     <% if !current_user?(@user) %>
-      <a href="<%= followers_user_path(@user) %>">
+      <!--<a href="<%= followers_user_path(@user) %>">-->
       <strong id="followers" class="stat">
         <p style="font-size:15px; color:white"><%= @user.followers.count %></p>
       </strong>
-      <p style="font-size:15px; color:white">Registered Users</p>
+      <!--<p style="font-size:15px; color:white">Registered Users</p>-->
       </a>
     <% else %>
       <a href="<%= following_user_path(@user) %>">
