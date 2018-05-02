@@ -32679,3 +32679,655 @@ Redirected to http://test.host/
 Filter chain halted as :correct_user rendered or redirected
 Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
   [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM "microposts"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2018-05-02 01:49:57 UTC', '2018-05-02 01:59:58', 499495288, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Check out the @tauday site by @mhartl: http://tauday.com', '2015-05-02 01:59:57 UTC', '2018-05-02 01:59:58', 517500819, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Sad cats are sad: http://youtu.be/PKffm2uI4dk', '2018-05-01 23:59:57 UTC', '2018-05-02 01:59:58', 12348100, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Writing a short test', '2018-05-02 01:59:57 UTC', '2018-05-02 01:59:58', 941832919, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Voluptatem eos quaerat omnis non ea expedita.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 177734013, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Itaque eos consequuntur quas ratione dicta porro cum et.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 1033843180, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('In reprehenderit dolores fuga blanditiis suscipit nesciunt.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 613834836, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Accusantium ipsa eos unde qui.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 328290505, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Minus rem quisquam aut rerum quia laboriosam.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 234210660, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Vel perspiciatis ut quis labore fugit.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 989001203, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Vel et ea ut dolores repellendus quibusdam harum.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 603694155, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Deleniti fuga ab facilis quisquam.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 352097504, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Deserunt a iusto dolores ea vel quis minima.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 71534927, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Assumenda rerum quod et voluptas aspernatur dolores tempore nulla possimus.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 860142042, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Praesentium occaecati porro sapiente omnis qui accusamus quia voluptate.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 58620899, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Laboriosam modi numquam ducimus et id sit ratione ea.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 880364408, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Fugit dolorem nam blanditiis ut culpa quia saepe.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 762321612, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Repellat sunt magnam dolor provident ab in esse.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 444017243, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Sint ea molestiae repudiandae ex reiciendis laudantium in voluptate.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 68403196, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Beatae aut sit quia iure.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 856985457, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Itaque aut aspernatur et sunt beatae mollitia veritatis.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 706600661, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Earum voluptatem tenetur quia velit quasi facilis aut dolorem.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 488304196, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Quidem voluptatem maiores quia et facilis eum.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 228979669, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Quis ducimus tenetur harum qui et repellat atque adipisci deserunt.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 983745350, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Quia esse iusto maxime ipsum in expedita.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 676538406, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Omnis dolores nisi dolorem qui rerum est.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 525605047, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Consequuntur eveniet dolore enim vel non maxime optio et culpa.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 106776847, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Aut qui quae voluptas eaque earum aspernatur.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 828012954, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Eos necessitatibus soluta neque animi vel error quos recusandae accusantium.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 792652861, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Numquam saepe quam similique fugit magni et libero.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 406445230, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Aut nihil commodi reprehenderit aut id quas aliquid perspiciatis porro.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 19959062, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Enim nesciunt veritatis officia culpa quasi minus.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 909622657, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Fuga rerum temporibus quia voluptatem assumenda quia.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 646488084, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Vero odit aut autem minus at.', '2018-03-21 01:59:58 UTC', '2018-05-02 01:59:58', 294621321, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Oh, is that what you want? Because that''s how you get ants!', '2016-05-02 01:59:58 UTC', '2018-05-02 01:59:58', 583546149, 950961012)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Danger zone!', '2018-04-29 01:59:58 UTC', '2018-05-02 01:59:58', 552321033, 950961012)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I''m sorry. Your words made sense, but your sarcastic tone did not.', '2018-05-02 01:49:58 UTC', '2018-05-02 01:59:58', 3454773, 409608538)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Dude, this van''s, like, rolling probable cause.', '2018-05-01 21:59:58 UTC', '2018-05-02 01:59:58', 970054474, 409608538)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "relationships"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "relationships" ("created_at", "updated_at", "id", "follower_id", "followed_id") VALUES ('2018-05-02 01:59:58', '2018-05-02 01:59:58', 980190962, 762146111, 409608538)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "relationships" ("created_at", "updated_at", "id", "follower_id", "followed_id") VALUES ('2018-05-02 01:59:58', '2018-05-02 01:59:58', 298486374, 762146111, 785162917)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "relationships" ("created_at", "updated_at", "id", "follower_id", "followed_id") VALUES ('2018-05-02 01:59:58', '2018-05-02 01:59:58', 113629430, 409608538, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "relationships" ("created_at", "updated_at", "id", "follower_id", "followed_id") VALUES ('2018-05-02 01:59:58', '2018-05-02 01:59:58', 281110143, 950961012, 762146111)
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "admin", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Michael Example', 'michael@example.com', '$2a$04$UlJRKV/p9VJYS74m4WNaaufJbwWoI.uviJnbOl8LZX2wj6p6XrzC.', 't', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Sterling Archer', 'duchess@example.gov', '$2a$04$1TGT.x.vN7K9I5CgZdt8LOv0Py0xfEwv5eiA2BAw7DKVA6R24EkEK', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 950961012)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Lana Kane', 'hands@example.gov', '$2a$04$rLfp4mp41gTNqegTFvRmsOtFA.dCIbH3I5bvyuhGHeqvJGmbT71zO', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 409608538)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('Mallory Archer', 'boss@example.gov', '$2a$04$HR/xjZCARXLxrm6QkLvsBe6GKO22fgcYDEc04OItMXD8kqm6Agcbm', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 785162917)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 0', 'user-0@example.com', '$2a$04$qwztgYaxE3jBjbONxV0zBOzfTItEpWFIZEA/AOD5l.Rbp.MNb.Xvm', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 338193910)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 1', 'user-1@example.com', '$2a$04$I2BRaYYXRl/WUd1HzaQhpu5HLSYzArxVNrn9S2xKo66IDYH4zCtw2', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 590306657)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 2', 'user-2@example.com', '$2a$04$hBtrcg5EXB7f2J1JJP6/weazBZ4ckpiYQ37jgGfRgMH/Fzi/GdSay', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 975572189)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 3', 'user-3@example.com', '$2a$04$ZAEGZ2ghrp5k.CSqT8EiQOCCSYn.km6cuVF/Ylf8qEyK7VJ.Eq77W', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 220281934)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 4', 'user-4@example.com', '$2a$04$.Y/u0jWDVZeVmB9Bx9asHOEsmtzH5yUWOYFuMogPjKUaIE6azhBSW', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 323332591)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 5', 'user-5@example.com', '$2a$04$b.R9.HXTG.U7J5z9/.T9c.ghUitUTaRZ6CNgxJGicqa5MRg3MYf3u', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 608344442)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 6', 'user-6@example.com', '$2a$04$Zx2T7gk509HJDTEvni6EjOew/lZt0eF6s0vnoUptVkODLNi7Ytmsm', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 1028376774)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 7', 'user-7@example.com', '$2a$04$IRNVn3sOy6zj6oS.rXlEzOEs43fiLkCm3XU2XPUakOPqfCQ8jBTSu', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 172816471)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 8', 'user-8@example.com', '$2a$04$lJC6CDmldywMMj6zAJXlcuy5S4QyDWZlxyzZwzS1usVrzKIb935su', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 452191684)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 9', 'user-9@example.com', '$2a$04$EG9LrEXFG3TJd5WY3nyljOFbfEwN/PNVXopuYBZsM9D5oScVB8bja', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 771020115)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 10', 'user-10@example.com', '$2a$04$0Ln6tkImFq4TzXzwUDwe4elcljFrsVD52DZzzq.gPykD0yq3AOfgm', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 956993830)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 11', 'user-11@example.com', '$2a$04$ZWSIYOZ6l0GcjYVecYP4GepmLmclPBVYxS6C1Iu71gPf76ey5G8LC', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 235774389)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 12', 'user-12@example.com', '$2a$04$l1BXPSCtkolONBJH5ktbhewkY0dsk8kRoYZxz1G7rA54VVDc.I.oG', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 386199561)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 13', 'user-13@example.com', '$2a$04$YkcJ0EjXs2towwllHdwEW.fHnogQ2LlIaEFGnfFwiD2yJszzd20A6', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 537116830)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 14', 'user-14@example.com', '$2a$04$7hBr9DFCAincdU6PVAgTKu8I7UAxgUPE5orlCtLXnMc4jw4kgnuoe', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 1046959423)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 15', 'user-15@example.com', '$2a$04$/BKkjSsTp.aWK1x1DhQWAeVbfiGJV0sbCxCkCebUCDFhu9GBmchNa', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 157312430)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 16', 'user-16@example.com', '$2a$04$I9YzpHDcbdWTefxH.RJxI.Uju61ATiI13LJ6hTvKnEWZqegcdvZD.', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 275330066)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 17', 'user-17@example.com', '$2a$04$1mEJlte6.8CELXIAl9kRf.C2YGM3aVG9sPANqC4erTQHniP8uBeO6', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 661521543)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 18', 'user-18@example.com', '$2a$04$SShvjWJh4/MMYYJDkoY7I.IqginGXtCRCfurgsH6RsR1ru149Zlle', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 936450328)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 19', 'user-19@example.com', '$2a$04$CkkSC7Z.cCmV8iiG3BvG9OUCs0fT8Nr5RJydst52yS1E/nNsTFiOG', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 14035331)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 20', 'user-20@example.com', '$2a$04$R3qt5H5EetO80aWX9BxQ3.yao2anlmZ5YzTWTlMDdidyk0CWWVU3.', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 304595689)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 21', 'user-21@example.com', '$2a$04$wqKIw8jad40y2KoaS4ciD.KaX10whhJglI165bIbp1FQvNGLDI5z2', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 622916212)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 22', 'user-22@example.com', '$2a$04$LbdkWY0uAqa6Fsr/9Ut3Qu0ca0OCoaKBgh/WqtO6uFkna2quC8vkm', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 1009361868)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 23', 'user-23@example.com', '$2a$04$wuejrO8L8uVtwfN.k5GuJep999FbyXaxi68UFqOmQN7hx420ejmDG', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 187601757)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 24', 'user-24@example.com', '$2a$04$JBhLmITTZLaz1xWUbOjWeefXQ6BMGsZEFdvejjbYSxK4mTd3gPra6', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 357172992)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 25', 'user-25@example.com', '$2a$04$UnJyCsedF8oz5gqf/ZFgq.XwD6rhvs/wcNuGllkfaYmVtMQIqp1L.', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 575485547)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 26', 'user-26@example.com', '$2a$04$jvFsq9ZTjRXLnGcVa52ii.xlnw8j9uzTzxnPgdkr.NBMrQaPMtMcG', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 994338771)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 27', 'user-27@example.com', '$2a$04$Skdp8C5GTCCGuOTnCMs89OJGsZ5IstyncVdxbEdqOr9fgFmLps73e', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 205739844)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 28', 'user-28@example.com', '$2a$04$yHFIWTU/KapW53R5xcmOP.b/FJXCCcR2S0iRl747WOCF3yBQXcb4u', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 486296279)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "users" ("name", "phone", "password_digest", "activated", "activated_at", "created_at", "updated_at", "id") VALUES ('User 29', 'user-29@example.com', '$2a$04$DZml1xk/NUzMJzwPOAwK1.kKXSWUkRu57D1LORbX.SMZMjzdLgu6W', 't', '2018-05-02 01:59:58 UTC', '2018-05-02 01:59:58', '2018-05-02 01:59:58', 737901126)[0m
+  [1m[35m (5.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+SessionsControllerTest: test_should_get_new
+-------------------------------------------
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 3741ms (Views: 3741.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+UsersSignupTest: test_invalid_signup_information
+------------------------------------------------
+Started GET "/signup" for 127.0.0.1 at 2018-05-02 02:00:01 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.7ms)
+  Rendered users/new.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+Started POST "/users" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"", "phone"=>"user@invalid", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('user@invalid') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendered shared/_error_messages.html.erb (2.4ms)
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 6.0ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+----------------------------------------------
+UsersSignupTest: test_valid_signup_information
+----------------------------------------------
+Started GET "/signup" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+Started POST "/users" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"Example User", "phone"=>"1234567890", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('1234567890') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Example User"], ["phone", "1234567890"], ["password_digest", "$2a$04$Rz4w1yQkdDkdiTPlyDYjRuXoWt0s1rK8/jxg4GfWkDChez4IiweeO"], ["created_at", "2018-05-02 02:00:02.051971"], ["updated_at", "2018-05-02 02:00:02.051971"], ["activation_digest", "$2a$04$9IX7IoWs55/WdAxA/kx/1.rAx4oM3k9gdFlLuh5/qlnhxODqDdvXS"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "activated" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["activated", "t"], ["updated_at", "2018-05-02 02:00:02.056359"], ["id", 1046959424]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "activated_at" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["activated_at", "2018-05-02 02:00:02.062627"], ["updated_at", "2018-05-02 02:00:02.062915"], ["id", 1046959424]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 15ms (ActiveRecord: 0.8ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+Started POST "/login" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"phone"=>"1234567890", "password"=>"[FILTERED]", "remember_me"=>"1"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."phone" = ? LIMIT 1[0m  [["phone", "1234567890"]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_digest", "$2a$04$k5bWlhoMndslLXa/6yk0JuYq0z.f62npHLJs.Bjfg.sL0Ajz3RwC."], ["updated_at", "2018-05-02 02:00:02.072486"], ["id", 1046959424]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1046959424
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms)
+Started GET "/users/1046959424" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1046959424"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1046959424]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1046959424]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."followed_id" WHERE "relationships"."follower_id" = ?[0m  [["follower_id", 1046959424]]
+  Rendered shared/_stats.html.erb (9.4ms)
+  Rendered users/_follow_form.html.erb (0.4ms)
+  [1m[35mMicropost Exists (0.1ms)[0m  SELECT  1 AS one FROM "microposts" WHERE "microposts"."user_id" = ? LIMIT 1  [["user_id", 1046959424]]
+  Rendered users/show.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 17.2ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+---------------------------------------------------------------------------
+RelationshipsControllerTest: test_should_redirect_create_when_not_logged_in
+---------------------------------------------------------------------------
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "relationships"[0m
+Processing by RelationshipsController#create as HTML
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "relationships"
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+----------------------------------------------------------------------------
+RelationshipsControllerTest: test_should_redirect_destroy_when_not_logged_in
+----------------------------------------------------------------------------
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "relationships"[0m
+  [1m[35mRelationship Load (0.1ms)[0m  SELECT  "relationships".* FROM "relationships" WHERE "relationships"."id" = ? LIMIT 1  [["id", 980190962]]
+Processing by RelationshipsController#destroy as HTML
+  Parameters: {"id"=>"980190962"}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "relationships"[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------
+UsersProfileTest: test_profile_display
+--------------------------------------
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+Started GET "/users/762146111" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"762146111"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  Rendered shared/_stats.html.erb (4.7ms)
+  Rendered users/show.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+MicropostsControllerTest: test_should_redirect_create_when_not_logged_in
+------------------------------------------------------------------------
+  [1m[35mMicropost Load (0.1ms)[0m  SELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1  [["id", 499495288]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts"[0m
+Processing by MicropostsController#create as HTML
+  Parameters: {"micropost"=>{"content"=>"Lorem ipsum"}}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts"
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------------------------------------------------
+MicropostsControllerTest: test_should_redirect_destroy_when_not_logged_in
+-------------------------------------------------------------------------
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1[0m  [["id", 499495288]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts"
+Processing by MicropostsController#destroy as HTML
+  Parameters: {"id"=>"499495288"}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts"[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+MicropostsControllerTest: test_should_redirect_destroy_for_wrong_micropost
+--------------------------------------------------------------------------
+  [1m[35mMicropost Load (0.1ms)[0m  SELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1  [["id", 499495288]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts"
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = ? LIMIT 1[0m  [["id", 583546149]]
+Processing by MicropostsController#destroy as HTML
+  Parameters: {"id"=>"583546149"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+  [1m[36mMicropost Load (0.1ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ? AND "microposts"."id" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["user_id", 762146111], ["id", 583546149]]
+Redirected to http://test.host/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "microposts"
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+----------------------------------------------
+UsersLoginTest: test_login_without_remembering
+----------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+Started POST "/login" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"phone"=>"michael@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."phone" = ? LIMIT 1  [["phone", "michael@example.com"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/762146111
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+--------------------------------------------------------------------
+UsersLoginTest: test_login_with_valid_information_followed_by_logout
+--------------------------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+Started GET "/login" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"phone"=>"michael@example.com", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."phone" = ? LIMIT 1  [["phone", "michael@example.com"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/762146111
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms)
+Started GET "/users/762146111" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"762146111"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" INNER JOIN "relationships" ON "users"."id" = "relationships"."follower_id" WHERE "relationships"."followed_id" = ?[0m  [["followed_id", 762146111]]
+  Rendered shared/_stats.html.erb (4.6ms)
+  Rendered users/_follow_form.html.erb (0.1ms)
+  [1m[35mMicropost Exists (0.0ms)[0m  SELECT  1 AS one FROM "microposts" WHERE "microposts"."user_id" = ? LIMIT 1  [["user_id", 762146111]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 762146111]]
+  [1m[35mMicropost Load (0.2ms)[0m  SELECT  "microposts".* FROM "microposts" WHERE "microposts"."user_id" = ?  ORDER BY created_at DESC LIMIT 30 OFFSET 0  [["user_id", 762146111]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = ?[0m  [["user_id", 762146111]]
+  Rendered microposts/_micropost.html.erb (17.6ms)
+  Rendered users/show.html.erb within layouts/application (32.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.5ms)
+Started DELETE "/logout" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+Started DELETE "/logout" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+---------------------------------------------------
+UsersLoginTest: test_login_with_invalid_information
+---------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+Started GET "/login" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"phone"=>"", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."phone" = ? LIMIT 1  [["phone", ""]]
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-------------------------------------------
+UsersLoginTest: test_login_with_remembering
+-------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+Started POST "/login" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"phone"=>"michael@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."phone" = ? LIMIT 1  [["phone", "michael@example.com"]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["remember_digest", "$2a$04$gW4m1r1L26KMtTTt8MCv0uahramelVBl2ooIsuxb41QDdpeA8hgUO"], ["updated_at", "2018-05-02 02:00:02.255830"], ["id", 762146111]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/762146111
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------
+SessionsHelperTest: test_current_user_returns_nil_when_remember_digest_is_wrong
+-------------------------------------------------------------------------------
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["remember_digest", "$2a$04$p1PwTHi.lpeM./VIh.1UDOTOQetg6VFbYF8aZ.h7BpS5X5eKPy/9u"], ["updated_at", "2018-05-02 02:00:02.262076"], ["id", 762146111]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_digest", "$2a$04$DuHye0M6dS0Gu0KRrS4SxuAQou4ConWWohrIACqk0m1BLl2foq6am"], ["updated_at", "2018-05-02 02:00:02.264962"], ["id", 762146111]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------
+SessionsHelperTest: test_current_user_returns_right_user_when_session_is_nil
+----------------------------------------------------------------------------
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["remember_digest", "$2a$04$ikEOIPWHORqODRGLeVLYDuJHshIszcJqF9D5y7uIzjqaXIgahLhcm"], ["updated_at", "2018-05-02 02:00:02.271497"], ["id", 762146111]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-----------------------------------------------------------------------------
+UsersControllerTest: test_should_redirect_update_when_logged_in_as_wrong_user
+-----------------------------------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+Processing by UsersController#update as HTML
+  Parameters: {"user"=>{"name"=>"Michael Example", "phone"=>"michael@example.com"}, "id"=>"762146111"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 950961012]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+Redirected to http://test.host/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+------------------------------------------------------------------
+UsersControllerTest: test_should_redirect_index_when_not_logged_in
+------------------------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+Processing by UsersController#index as HTML
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------------------------------------------
+UsersControllerTest: test_should_redirect_update_when_not_logged_in
+-------------------------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+Processing by UsersController#update as HTML
+  Parameters: {"user"=>{"name"=>"Michael Example", "phone"=>"michael@example.com"}, "id"=>"762146111"}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-----------------------------------------------------------------
+UsersControllerTest: test_should_redirect_edit_when_not_logged_in
+-----------------------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"762146111"}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+----------------------------------------------------------------------
+UsersControllerTest: test_should_redirect_followers_when_not_logged_in
+----------------------------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+Processing by UsersController#followers as HTML
+  Parameters: {"id"=>"762146111"}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+----------------------------------------------------------------------
+UsersControllerTest: test_should_redirect_following_when_not_logged_in
+----------------------------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+Processing by UsersController#following as HTML
+  Parameters: {"id"=>"762146111"}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-------------------------------------------------------------------------------
+UsersControllerTest: test_should_redirect_destroy_when_logged_in_as_a_non-admin
+-------------------------------------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+Processing by UsersController#destroy as HTML
+  Parameters: {"id"=>"762146111"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+Redirected to http://test.host/
+Filter chain halted as :admin_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------
+UsersControllerTest: test_should_redirect_destroy_when_not_logged_in
+--------------------------------------------------------------------
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 950961012]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+Processing by UsersController#destroy as HTML
+  Parameters: {"id"=>"762146111"}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------
+UsersControllerTest: test_should_redirect_edit_when_logged_in_as_wrong_user
+---------------------------------------------------------------------------
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 950961012]]
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"762146111"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 950961012]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+Redirected to http://test.host/
+Filter chain halted as :correct_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------
+UserMailerTest: test_account_activation
+---------------------------------------
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 762146111]]
+  Rendered user_mailer/account_activation.html.erb within layouts/mailer (1.4ms)
+  Rendered user_mailer/account_activation.text.erb within layouts/mailer (0.4ms)
+
+UserMailer#account_activation: processed outbound mail in 13.1ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-----------------------------------
+UserMailerTest: test_password_reset
+-----------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 762146111]]
+  Rendered user_mailer/password_reset.html.erb within layouts/mailer (1.3ms)
+  Rendered user_mailer/password_reset.text.erb within layouts/mailer (0.4ms)
+
+UserMailer#password_reset: processed outbound mail in 9.4ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+UserTest: test_password_should_be_present_(nonblank)
+----------------------------------------------------
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('9827094529') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+--------------------------------------
+UserTest: test_phone_should_be_present
+--------------------------------------
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('     ') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------
+UserTest: test_authenticated?_should_return_false_for_a_user_with_nil_digest
+----------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+UserTest: test_phone_should_not_be_too_long
+-------------------------------------------
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------------------------------------
+UserTest: test_phone_validation_should_accept_valid_addresses
+-------------------------------------------------------------
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('1234567890') LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('0987654321') LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('9799851509') LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('9799851508') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+---------------------------------------------------------------
+UserTest: test_phone_validation_should_reject_invalid_addresses
+---------------------------------------------------------------
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('user@example,com') LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('user_at_foo.org') LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('user.name@example.') LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('foo@bar_baz.com') LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('foo@bar+baz.com') LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------
+UserTest: test_should_be_valid
+------------------------------
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('9827094529') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-------------------------------------
+UserTest: test_name_should_be_present
+-------------------------------------
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('9827094529') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+UserTest: test_phone_address_should_be_unique
+---------------------------------------------
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('9827094529') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "phone", "password_digest", "created_at", "updated_at", "activation_digest") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Example User"], ["phone", "9827094529"], ["password_digest", "$2a$04$zEPkkE1euZTLt2WysnzU6ujwzMFkqTCg37TnFIc8Ps2v77/KbFNwe"], ["created_at", "2018-05-02 02:00:02.583975"], ["updated_at", "2018-05-02 02:00:02.583975"], ["activation_digest", "$2a$04$e6Cv4Np84ZgjELdRYmcDhuxATQcdLR8rvU/po/pNHWnAxi9CQrTWC"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('9827094529') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+------------------------------------------
+UserTest: test_name_should_not_be_too_long
+------------------------------------------
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('9827094529') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+UserTest: test_password_should_have_a_minimum_length
+----------------------------------------------------
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."phone") = LOWER('9827094529') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2018-05-02 02:00:02 +0000
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_help
+-----------------------------------------------
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+-----------------------------------------------
+StaticPagesControllerTest: test_should_get_home
+-----------------------------------------------
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m

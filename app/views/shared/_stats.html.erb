@@ -3,7 +3,7 @@
 
 <div class="stats">
   <% if current_user.admin? %>
-    <a href="<%= followers_user_path(@user) %>">
+    <!--<a href="<%= followers_user_path(@user) %>">-->
     <strong id="followers" class="stat">
       <p style="font-size:15px; color:white"><%= @user.followers.count %></p>
     </strong>

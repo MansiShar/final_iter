@@ -2,9 +2,9 @@ module UsersHelper
   
   # Returns the Gravatar for the given user.
   def gravatar_for(user, options = { size: 80 })
-    gravatar_id = Digest::MD5::hexdigest(user.phone.downcase)
+    # gravatar_id = Digest::MD5::hexdigest(user.phone.downcase)
     size = options[:size]
-    gravatar_url = "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
+    # gravatar_url = "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
     if user == "1" or user.name == "Class Healing Garden" #healing garden image
       image_tag("http://beta.finegardening.com/app/uploads/sites/finegardening.com/files/images/image-collection/jan4_1.jpg",:size => "150x150", alt: user.name, class: "gravatar")
     elsif user == "2" or user.name == "Class Yoga"
